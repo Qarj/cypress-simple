@@ -3,6 +3,9 @@
     "cypress": "^10.10.0"
   },
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:open:dev": "cypress open --config-file cypress/cypress-dev.config.js",
+    "cypress:open:live": "cypress open --config-file cypress/cypress-live.config.js --project .",
+    "cypress:open:prod": "cypress open --env configFile=cypress-prod.config.js"
   }
 }
