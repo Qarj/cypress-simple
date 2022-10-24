@@ -22,3 +22,20 @@ defineConfig: defineConfig(config) {
     return config;
   }
 ```
+
+## Using app-root-path
+
+Run script
+
+```bash
+npm run cypress:open:gamma
+```
+
+Will see console output
+```txt
+Cypress config file: /Users/user.name/git/cypress-simple/cypress/cypress-gamma.config.js
+defineConfig: defineConfig(config) {
+    return config;
+  }
+appRoot: /Users/user.name/git/cypress-simple
+```
